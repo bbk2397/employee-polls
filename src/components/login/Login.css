@@ -1,0 +1,50 @@
+.login-area {
+	padding-top: 100px;
+	margin: auto;
+	width: 40%;
+}
+
+.user-selection,
+.user-login,
+.image,
+.login-title {
+	width: 300px;
+	margin: auto;
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.user-selection,
+.user-login,
+.user-selection {
+	background-color: white;
+	border-color: white;
+	font-size: 16px;
+}
+
+.user-selection {
+	border-top: 0px;
+	border-left: 0px;
+}
+
+.user-login {
+	cursor: pointer;
+	margin-top: 10px;
+	border-color: #50C878;
+	border-radius: 25px;
+}
+
+.user-login:active {
+	background-color: #50C878;
+}
+
+.image {
+	width: 70%;
+	height: 70%;
+}
+
+.login-title {
+	font-family: Cursive, Helvetica, sans-serif;
+	font-size: 40px;
+}

@@ -1,0 +1,26 @@
+.error-404 {
+	margin-top: 45px;
+	margin: auto;
+	width: 50%;
+
+	border: 5px red solid;
+	border-top: none;
+	border-bottom: none;
+	border-radius: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	align-content: center;
+}
+
+.error, .hint {
+	text-align: center;
+}
+
+.error {
+	margin-bottom: 10px;
+}
+
+.hint {
+	color: #0096FF;
+}

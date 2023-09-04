@@ -1,0 +1,80 @@
+.poll-new-area,
+.poll-new-title,
+.poll-new-subtitle,
+.poll-new-form,
+.option-label,
+.create-poll-button {
+	margin: auto;
+}
+
+.poll-new-area {
+	width: 70%;
+}
+
+.poll-new-title,
+.poll-new-subtitle,
+.option-label {
+	text-align: center;
+}
+
+.poll-new-title {
+	margin-bottom: 5px;
+}
+
+.poll-new-subtitle {
+	color: grey;
+}
+
+.poll-new-form,
+.option-group {
+	display: grid;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.poll-new-form {
+	grid-template-columns: 90%;
+	row-gap: 20px;
+
+	padding-top: 30px;
+}
+
+.option-group {
+	grid-template-columns: 100%;
+	row-gap: 5px;
+}
+
+.option-label,
+.create-poll-button {
+	font-size: 20px;
+}
+
+.option-label {
+	font-family: 'Courier New', monospace;
+	font-weight: bold;	
+}
+
+.option-input {
+	padding: 10px 5px;
+	font-size: 16px;
+}
+
+.create-poll-button {
+	background-color: white;
+	border-color: white;
+	cursor: pointer;
+	border-color: #50C878;
+	border-radius: 25px;
+	width: 20%;
+}
+
+.create-poll-button:active {
+	background-color: #50C878;
+}
+
+.create-poll-button:disabled {
+	background-color: white;
+	border-color: grey;
+	cursor: default;
+}

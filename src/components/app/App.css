@@ -1,0 +1,15 @@
+.container {
+	border-radius: 100px;
+	border: 15px  #d1fef9  solid;
+	border-top: none;
+	border-bottom: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.redirect-message {
+	margin: auto;
+	width: 25%;
+	font-size: 20px;
+	margin-top: 50px;
+}

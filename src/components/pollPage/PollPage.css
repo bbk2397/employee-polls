@@ -1,0 +1,109 @@
+.poll-page-area,
+.poll-page-title, 
+.poll-page-avatar,
+.poll-page-question,
+.poll-page-options {
+	margin: auto;
+}
+
+.poll-page-area {
+	width: 70%;
+}
+
+.poll-page-title,
+.poll-page-avatar,
+.poll-page-question,
+.poll-page-options,
+.poll-page-option-text {
+	text-align: center;
+}
+
+.poll-page-title,
+.poll-page-question,
+.poll-page-avatar {
+	margin-bottom: 15px;
+}
+
+.poll-page-title {
+	width: 20%;
+}
+
+.poll-page-avatar {
+	width: 30%;
+
+	font-size: 50px;
+
+	display: flex;
+	align-items: center;
+	
+	height: 436px;
+	width: 436px;
+  border-radius: 50%;
+}
+
+.poll-page-question {
+	width: 25%;
+}
+
+.poll-page-options,
+.poll-page-option,
+.icon-area {
+	display: grid;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.poll-page-options {
+	grid-template-columns: 40% 6% 40%;
+	column-gap: 2%;
+
+	padding: 5px 10px 10px 10px;
+}
+
+.poll-page-option {
+	grid-template-columns: 90%;
+	row-gap: 3px;
+}
+
+.poll-page-option-text {
+	font-size: 16px;
+	border: 1px #D3D3D3 solid;
+
+	padding: 10px 2px;
+}
+
+.poll-page-option-voting-button {
+	border-color: white;
+	background-color: #7DF9FF;
+	color: black;
+	font-size: 16px;
+	font-family: 'Brush Script MT', cursive;
+}
+
+.poll-page-option-voting-button:hover {
+	cursor: pointer;
+}
+
+.poll-page-option-voting-button:disabled {
+	color: grey;
+	cursor: default;
+}
+
+.vote-progress {
+	font-family: 'Courier New', monospace;
+	font-size: 16px;
+}
+
+.icon-vote-yea,
+.icon-question {
+	font-size: 50px;
+}
+
+.icon-vote-yea {
+	color: green;
+}
+
+.icon-question {
+	color: red;
+}

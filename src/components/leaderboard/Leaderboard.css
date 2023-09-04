@@ -1,0 +1,79 @@
+.leaderboard-area,
+.leaderboard-table {
+	margin: auto;
+}
+
+.leaderboard-area {
+	width: 70%;
+}
+
+.leaderboard-table,
+.leaderboard-header,
+.leaderboard-row {
+	display: grid;
+
+	align-items: center;
+}
+
+.leaderboard-table {
+	padding: 20px;
+	border: 5px grey solid;
+	border-radius: 5%;
+}
+
+.leaderboard-header,
+.leaderboard-row {
+	grid-template-columns: 60% 20% 20%;
+	column-gap: 0px;
+}
+
+.leaderboard-header {
+	background-color: #F5F5F5;
+}
+
+.header-cell,
+.leaderboard-normal-cell {
+	text-align: start;
+	border: 1px lightgray solid;
+}
+
+.header-cell {
+	padding: 10px 7px;
+	font-size: 20px;
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+}
+
+.leaderboard-normal-cell {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+
+	padding-left: 7px;
+}
+
+.leaderboard-avatar {
+	display: table;
+	height: 40px;
+  border-radius: 45px;
+	margin: 5px 30px 5px 5px;
+	font-size: 10px;
+}
+
+.leaderboard-avatar-area {
+	width: 60px;
+}
+
+.leaderboard-name {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.leaderboard-id {
+	font-size: 14px;
+	color: grey;
+}

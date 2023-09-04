@@ -1,0 +1,30 @@
+.logout {
+	display: grid;
+	row-gap: 10px;
+
+	margin-top: 45px;
+	margin: auto;
+	width: 50%;
+
+	align-content: center;
+	align-items: center;
+}
+
+.hint {
+	color: #0096FF;
+	text-align: center;
+}
+
+.login-button {
+	background-color: white;
+	border: 1px black solid;
+	border-radius: 25px;
+
+	margin: auto;
+	width: 30%;
+}
+
+.login-button:active {
+	background-color: black;
+	color: white;
+}
